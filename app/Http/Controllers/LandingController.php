@@ -8,7 +8,7 @@ class LandingController extends Controller
 {
     function landing(){
         $data = [
-            'name' => 'Hida Syantiks',
+            'name' => 'Hidayatul Khasanah',
             'location' => 'Bandung'
         ];
         return view('Landing.page',$data);
