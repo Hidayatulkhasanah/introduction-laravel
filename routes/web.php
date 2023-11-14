@@ -16,7 +16,7 @@ use App\Http\Controllers\LandingController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('Halo, Selamat datang');
 });
 
 Route::get('/landing',[LandingController::class, 'landing']);
